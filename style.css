@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family: Roboto, sans-serif;
+    background-color: #f2f2f2;
+}
+
+h2 {
+    margin-bottom: 40px;
+}
+
+a {
+    text-decoration: none;
+    position: relative;
+}
+
+.header {
+    background-color: #80aa1f;
+    padding: 10px;
+    width: 100%;
+    padding-left: auto;
+    padding-right: auto;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.header nav ul li a {
+    color: white;
+    font-weight: bold;
+}
+
+.header nav ul li a::before {
+    content: '';
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    transition: 0.9s;
+    transform: scaleX(0);
+}
+
+.header nav ul li a:hover:before {
+    transform: scaleX(1);
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline;
+    margin-right: 20px;
+}
+
+
+.footer {
+    background-color: #80aa1f;
+    color: white;
+    padding: 15px;
+}
+
+fieldset {
+    border: none;
+    font-size: 20px;
+    margin-right: 80px;;
+}
+
+fieldset label:hover {
+    color: orange;
+}
+
+.btm {
+    background-color: #e3ea16d2;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    border: none;
+    margin-left: 20px;
+    font-weight: bold;
+    padding: 15px;
+}
+
+.btm:hover,
+.buy-btn:hover {
+    background-color: #e3ea16d2;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.buy-btn {
+    color: white;
+    background-color: #e3ea16d2;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+
+.price {
+    color: black;
+    font-weight: bold;
+    padding-right: 20px; 
+}
+
+input[type="checkbox"]:hover,
+fieldset label:hover {
+    cursor: pointer;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap; /* Переносит элементы на новую строку, если не хватает места */
+  justify-content: center; /* Выравнивает элементы по горизонтали */
+  align-items: center; /* Выравнивает элементы по вертикали */
+  width: 100%; /* Задает ширину блока равной 100% от ширины родительского элемента */
+  max-width: 1200px; /* Максимальная ширина блока (опционально, можно установить свое значение) */
+  margin: 0 auto; /* Добавляет автоматические отступы слева и справа, центрируя блок горизонтально */
+  box-sizing: border-box; 
+}
+
+section p {
+    width: 250px;
+    margin-right: 50px;
+}
+
+main {
+    display: flex;
+}
+
+

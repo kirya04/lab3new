@@ -1,0 +1,9 @@
+.header,
+.main-menu {
+  display: none;
+}
+
+.page-books h2 {
+  font-size: 24pt;
+  margin-top: 0;
+}

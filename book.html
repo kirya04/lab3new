@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Магазин книг</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="print.css" media="print">
+</head>
+<body>
+    <header class="header">
+        <div>
+            <nav class="main-menu">
+                <ul>
+                    <li><a href="#">Главная</a></li>
+                    <li><a href="#">Каталог</a></li>
+                    <li><a href="#">Акции</a></li>
+                    <li><a href="#">Контакты</a></li>
+                    <li><a href="#">Вход</a></li>
+                </ul>   
+            </nav>
+        </div>
+    </header>
+    <main>
+    <div class="container">
+        <form>
+            <fieldset>
+                <legend>Жанр</legend>
+                <div>
+                    <input type="checkbox" id="comedy">
+                    <label for="comedy">Комедия</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="tragedy">
+                    <label for="tragedy">Трагедия</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="novel">
+                    <label for="novel">Роман</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="self-development">
+                    <label for="self-development">Саморазвитие</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="melodrama">
+                    <label for="melodrama">Мелодрама</label>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Издания</legend>
+                <div>
+                    <input type="checkbox" id="act">
+                    <label for="act">АСТ</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="abc">
+                    <label for="abc">Азбука</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="ecsmo">
+                    <label for="ecsmo">Эксмо</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="bomb">
+                    <label for="bomb">Бомбора</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="alp">
+                    <label for="alp">Альпина</label>
+                </div>
+            </fieldset>
+            <button class="btm">Применить</button>
+        </form>
+    </div>
+    <div class="page-books">
+        <h2>Эти скидки специально для вас!</h2>
+        
+        <section class="papa">
+            <div id="book_1">
+                <a href="book1.html">
+                    <div id="1">
+                        <img src="https://ir.ozone.ru/multimedia/c1000/1017862026.jpg" alt="1997" width="250px" height="350px">
+                        <br>
+                        <label>Богатый папа, бедный папа "1997"</label>
+                        <p>«Богатый папа, бедный папа» (англ. Rich Dad Poor Dad) — книга, написанная Робертом Т. Кийосаки и Шэрон Лехтер в 1997 году.
+                        В ней говорится о важности финансовой грамотности, финансовой независимости и создания богатства путём:...</p>
+                        <div class="action">
+                            <label class="price"><s>500</s> 389 руб</label>
+                            <button class="buy-btn">Заказать</button>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div id="book_2">
+                <a href="book2.html">         
+                <div id="2">
+                    <img src="https://www.yolabooks.ru/storage/photo/resized/xy_1732x1732/f/7otea7924r7xayk_62df6316.jpg" alt="Уроки французского" width="250px" height="350px">
+                    <br>
+                    <label>В. Распутин "Уроки французского"</label>
+                    <p>В целом книга В.Распутина - о мудрости молодой учительницы, которая не только занималась с мальчиком 
+                        ( повествование идет от первого лица и, как я поняла, является автобиографичной) французским, но и, играя с ним на деньги у себя в комнате, 
+                        давала возможность.</p>
+                    <div class="action">
+                        <lable class="price"><s>1000</s> 749 руб</lable>
+                        <button class="buy-btn">Заказать</button>
+                    </div>
+                </div>
+            </a>
+            </div> 
+            <div id="book_3">
+                <div class="photo" id="Taras">
+                    <img src="https://digital-basket-01.wbbasket.ru/vol6/id_45989056/f81ca580700e48756f8307df6277858c/1920.jpg" alt="Тарас Бульба" width="250px" height="350px">
+                </div>
+                <a href="book3.html">
+                <div id="3">
+                    <label>Н. Гоголь "Тараса Бульба"</label>
+                    <p>События произведения происходят в среде запорожских казаков в первой половине XVII века. 
+                        В основу повести Н. В. Гоголя легла история казацкого восстания 1637—1638 годов, 
+                        подавленного гетманом Николаем Потоцким. </p>
+                    <div class="action">
+                        <lable class="price"><s>760</s> 430 руб</lable>
+                        <button class="buy-btn">Заказать</button>
+                    </div>
+                </div>
+            </a>
+            </div>
+        </section> 
+        <section class="papa">       
+            <div id="book_4">
+                <div class="photo" id="Anna">
+                    <img src="https://fkniga.ru/media/product/04/040404/KA-00336551.jpg" alt="Анна Каренина" width="250px" height="350px">
+                </div>
+                <a href="book4.html">
+                <div id="4">
+                    <label>Л. Н. Толстой "Анна Каренина"</label>
+                    <p>«А́нна Каре́нина» (1873—1877; журнальная публикация 1875—1877; первое книжное издание 1878) — 
+                        роман Льва Толстого о трагической любви замужней дамы Анны Карениной и 
+                        блестящего офицера Алексея Вронского на фоне счастливой семейной жизни дворян Константина Лёвина и Кити Щербацкой.</p>
+                    <div class="action">
+                        <lable class="price"><s>569</s> 299 руб</lable>
+                        <button class="buy-btn">Заказать</button>
+                    </div>
+                </div>
+            </a>
+            </div>   
+            <div id="book_5">
+                <div class="photo" id="Romeo">
+                    <img src="https://cdn1.ozone.ru/s3/multimedia-1/6302868397.jpg" alt="Ромео и Джульетта" width="250px" height="350px">
+                </div>
+                <a href="book5.html">
+                <div id="5">
+                    <label>У. Шекспир "Ромео и Джульетта"</label>
+                    <p>«Роме́о и Джулье́тта» (англ. Romeo and Juliet) — трагедия Уильяма Шекспира, рассказывающая о любви юноши и девушки из двух враждующих веронских родов — Монтекки и Капулетти.
+                        Сочинение обычно датируется 1594—1595 годами. Более ранняя датировка.</p>
+                    <div class="action">
+                        <lable class="price"><s>459</s> 299 руб</lable>
+                        <button class="buy-btn">Заказать</button>
+                    </div>
+                </div>
+            </a>
+            </div>  
+        </section>  
+    </div> 
+    </main>
+    <hr>
+    <footer class="footer">
+        <p>Все права подтверждены «Янышев Кирилл Александрович»</p>
+    </footer>
+</body>
+</html>
